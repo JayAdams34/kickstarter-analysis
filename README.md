@@ -9,7 +9,7 @@
 ## Analysis
 ### Deliverable 1
   In order to find which of the theater campaigns were successful, failed, or canceled based on its launch date, we had to first create a years column using the "=Year" function. For this function to work, you have to use the "Date created Conversion" column which as created by converting the Unix timestamp located in the "launched_at" column.
-<img src="epcoh_exp.png" width="40%", height="%40", title="EPOCH to Short Date">
+<img src="epcoh_exp.png" width="40%" height="%40">
 ![picture alt](years_exp.png =250x250 "Short Date to YEAR()")
   Once that is finished you then must create a line chart based off the pivot tale to determine theater campaigns outcomes based on its launch date. 
   To successfully analyze this dataset, we had to filter the pivot table by Parent Category and Years, set Outcomes to columns, set Date Created Conversions to rows, and place the values to list in each cell as the Count of (each possible) Outcome.
