@@ -13,12 +13,12 @@
 <img src="years_exp.png" width="40%" height="40%" title="Short Date to YEAR()">  
   Once that is finished you then must create a line chart based off the pivot tale to determine theater campaigns outcomes based on its launch date. 
   To successfully analyze this dataset, we had to filter the pivot table by Parent Category and Years, set Outcomes to columns, set Date Created Conversions to rows, and place the values to list in each cell as the Count of (each possible) Outcome.  
-<img src="pc_exp.png" width="50%" height="50%" title="Pivot Table">
+<img src="pc_exp.png" width="60%" height="60%" title="Pivot Table">  
 
 ### Deliverable 2
   To find the percentage of which play campaigns were successful, failed, or canceled based on the funding goal amount, we had to first create a new worksheet to reflect this statistical analysis. Within "Outcomes based on Goals", we found the Number of Successful/Failed/Cancelled outcomes for each grouped goal amount using COUNTIF().   
   Next, we summed up each of these groupings for the Total Projects by using SUM(). Then, we found each percentage by dividing each number of outcomes by the total projects seen within each respective group.   
-<img src="countifs_exp.png" width="50%" height="50%" title="Stat Table and COUNTIFS()">
+<img src="countifs_exp.png" width="70%" height="70%" title="Stat Table and COUNTIFS()">  
   Finally, we created a line chart for each outcome based on goal groups. To successfully analyze this dataset, we had to make sure we had an understanding of how gather data for each outcome per goal group.
 
 ## Challenges
