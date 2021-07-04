@@ -9,16 +9,16 @@
 ## Analysis
 ### Deliverable 1
   In order to find which of the theater campaigns were successful, failed, or canceled based on its launch date, we had to first create a years column using the "=Year" function. For this function to work, you have to use the "Date created Conversion" column which as created by converting the Unix timestamp located in the "launched_at" column.  
-<img src="epcoh_exp.png" width="30%" height="30%" title="EPOCH to Short Date">
-<img src="years_exp.png" width="30%" height="30%" title="Short Date to YEAR()">
+<img src="epcoh_exp.png" width="20%" height="20%" title="EPOCH to Short Date">
+<img src="years_exp.png" width="30%" height="30%" title="Short Date to YEAR()">  
   Once that is finished you then must create a line chart based off the pivot tale to determine theater campaigns outcomes based on its launch date. 
   To successfully analyze this dataset, we had to filter the pivot table by Parent Category and Years, set Outcomes to columns, set Date Created Conversions to rows, and place the values to list in each cell as the Count of (each possible) Outcome.  
-![picture alt](pc_exp.png "Pivot Table")
+<img src="pc_exp.png" width="30%" height="30%" title=Pivot Table">
 
 ### Deliverable 2
   To find the percentage of which play campaigns were successful, failed, or canceled based on the funding goal amount, we had to first create a new worksheet to reflect this statistical analysis. Within "Outcomes based on Goals", we found the Number of Successful/Failed/Cancelled outcomes for each grouped goal amount using COUNTIF().   
   Next, we summed up each of these groupings for the Total Projects by using SUM(). Then, we found each percentage by dividing each number of outcomes by the total projects seen within each respective group.   
-  ![picture alt](http://via.placeholder.com/200x150 "Stat Table and COUNTIFS()")
+<img src="countifs_exp" width="30%" height="30%" title="Stat Table and COUNTIFS()">
   Finally, we created a line chart for each outcome based on goal groups. To successfully analyze this dataset, we had to make sure we had an understanding of how gather data for each outcome per goal group.
 
 ## Challenges
